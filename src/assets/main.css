@@ -1,0 +1,18 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Botón */
+.btn {
+  @apply h-7 text-xs px-5 py-1 rounded-sm bg-main text-white font-semibold hover:bg-btn-hover focus:outline-none focus:ring-2 focus:ring-focus-ring truncate overflow-hidden text-ellipsis w-full;
+}
+.btn-transparent{
+  @apply h-7 text-xs px-5 py-1 rounded-sm text-white font-semibold hover:bg-btn-hover focus:outline-none focus:ring-2 focus:ring-focus-ring truncate overflow-hidden text-ellipsis w-full;
+}
+
+/* Input */
+.input-main {
+  @apply block w-full px-2 py-1 text-sm text-white placeholder-gray-500 bg-input-background border border-border-gray rounded-md focus:outline-none focus:ring-2 focus:ring-focus-ring focus:border-slate-400 shadow-sm transition duration-150 ease-in-out;
+}
